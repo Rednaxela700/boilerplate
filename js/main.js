@@ -1,5 +1,6 @@
-let navLink = document.getElementsByClassName('nav-link');
+const navLink = document.querySelectorAll('.nav-link');
 
 navLink.addEventListener('click', function () {
-    this.classList.toggle('nav-link__deactivated');
+    const headerContainer = document.querySelector('.header-container');
+    headerContainer.classList.toggle('header-container__active');
 });
