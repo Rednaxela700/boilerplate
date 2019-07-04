@@ -52,6 +52,11 @@ textarea {
 }
 
 @media screen and (min-width: 1366px) {
+  .body-container {
+    background-color: #4f5d75;
+    font-family: Roboto, sans-serif;
+  }
+
   .header {
     position: relative;
     height: 70px;
@@ -148,6 +153,10 @@ textarea {
 
   .section-container {
     margin: 0 104px 0 150px;
+    color: #fff;
+  }
+  .section-container > h2 {
+    font-family: Raleway, sans-serif;
   }
 
   .welcome-section {
@@ -160,6 +169,12 @@ textarea {
     align-items: center;
     margin: 34px 150px 104px;
     height: 560px;
+  }
+  .welcome-section .section-container > h1 {
+    font-family: Roboto, sans-serif;
+  }
+  .welcome-section .section-container > h3 {
+    font-family: Raleway, sans-serif;
   }
 }
 @media only screen and (max-width: 500px) {
